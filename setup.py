@@ -32,7 +32,7 @@ for scheme in INSTALL_SCHEMES.values():
     scheme['data'] = scheme['purelib']
 
 dependencies = [
-    'django_simple_captcha >= 0.3',
+    'django_simple_captcha >= 0.4.0',
     'south >= 0.8',
     'django_compressor >= 1.1.2',
     'setuptools',
